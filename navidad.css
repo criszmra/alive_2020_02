@@ -49,3 +49,10 @@ nav{
 .texto{
     font-size: 10px;
 }
+.inicio{
+    text-align: center;
+}
+.boton-inicio{
+    text-align: center;
+    font-size: 20px;
+}

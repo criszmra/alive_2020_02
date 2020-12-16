@@ -3,7 +3,7 @@
 <head>
   <meta charset= "utf-8">
   <link href= "./navidad.css" rel= "stylesheet" type= "text/css">
-  <script src="./navidad.js"></script>
+  <script src="./funciones.js"></script>
   <title> intercambio navideño </title>
   </head>
   
@@ -88,12 +88,23 @@
      
 
   <body>
+     
+       
         <br>
         <br>
     
-        <section class= "pregunta"><br>🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄 Elige a la persona que te toco 🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄<br><br></section>
+        <section class="pregunta"><br>🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄 Elige a la persona que te toco 🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄<br><br></section>
+        
+        
+        <section class="boton-inicio">
+        <button class="persona" style="margin-left: auto;margin-right: auto; height: 50px; width: auto; font-family:  'Courier New', Courier, monospace; font-weight: bold; border:1px solid #BFBFBF;
+        background-color:#D41D19; border-radius:32px; color: white; font-size: 18px;" onclick="elegir();">Da click para ver quien te toco</button>
+        <p id="inicio" class="inicio">:)</p>
+        </section>
         <br>
         <br>
+        <br>
+
         <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
